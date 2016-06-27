@@ -1,0 +1,32 @@
+<div class="bookshelf-home">
+  <nav>
+    <ul>
+      <li class="active" action-type="tap.bookshelf.slide">收藏</li>
+      <li action-type="tap.bookshelf.slide">历史</li>
+      <li action-type="tap.bookshelf.slide">下载</li>
+      <li ><i class="yo-ico">&#xe654;</i></li>
+    </ul>
+  </nav>
+  <div class="swiper-container" id="bookshelf-hot-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="nolog">
+            <img  src="/youyaoqi/images/icon_loading_logout.png"/>
+            <p><i href="">请登陆后</i>,查看你的私密信息</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="nolog">
+            <img class="nothing" src="/youyaoqi/images/u17_layout_show_error_empty.png"/>
+            <p>什么也没有啊，哭晕在厕所</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="nolog">
+            <img  class="nothing" src="/youyaoqi/images/u17_layout_show_error_empty.png"/>
+            <p>什么也没有啊，哭晕在厕所</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,108 @@
+{
+    "code": 1,
+    "data": {
+        "stateCode": 1,
+        "message": "成功",
+        "returnData": {
+            "comic": {
+                "name": "小记的故事",
+                "comic_id": "124698",
+                "short_description": "小记旅行记",
+                "cover": "http://cover2.u17i.com/2016/05/14102916_1462943323_VPMP3kA7f3Af.sbig.jpg",
+                "is_vip": "0",
+                "type": "1",
+                "ori": "http://cover2.u17i.com/temp/2016/05/14102916_1462943323_VPMP3kA7f3Af.jpg",
+                "theme_ids": [
+                    "少女",
+                    "搞笑",
+                    "生活"
+                ],
+                "series_status": 0,
+                "last_update_time": 1466664248,
+                "description": "原本500强企业高管——小记，因为不堪顶头boss的迫害，撒谎请年假旅行，代价是要在旅行中找个未婚妻...",
+                "week_more": "2",
+                "thread_id": "17410501",
+                "author": {
+                    "avatar": "http://k.avatar.u17i.com/2016/0511/14102916_0518cecb5e6f8dbb5082b613222cd7c4_1462932599.big.jpg",
+                    "name": "地标记",
+                    "id": "14102916"
+                }
+            },
+            "chapter_list": [
+                {
+                    "name": "预告",
+                    "image_total": "14",
+                    "chapter_id": "492099",
+                    "type": "0",
+                    "price": "0",
+                    "size": "0",
+                    "pass_time": "1462944328",
+                    "release_time": "0",
+                    "zip_high_webp": "865716",
+                    "is_new": 0
+                },
+                {
+                    "name": "01话",
+                    "image_total": "18",
+                    "chapter_id": "494588",
+                    "type": "0",
+                    "price": "0",
+                    "size": "4294967295",
+                    "pass_time": "1463658657",
+                    "release_time": "0",
+                    "zip_high_webp": "1223673",
+                    "is_new": 0
+                },
+                {
+                    "name": "02话",
+                    "image_total": "18",
+                    "chapter_id": "496714",
+                    "type": "0",
+                    "price": "0",
+                    "size": "2169228288",
+                    "pass_time": "1464261049",
+                    "release_time": "0",
+                    "zip_high_webp": "1426507",
+                    "is_new": 0
+                },
+                {
+                    "name": "03话",
+                    "image_total": "14",
+                    "chapter_id": "501817",
+                    "type": "0",
+                    "price": "0",
+                    "size": "0",
+                    "pass_time": "1465536823",
+                    "release_time": "0",
+                    "zip_high_webp": "1408529",
+                    "is_new": 1
+                },
+                {
+                    "name": "04话",
+                    "image_total": "12",
+                    "chapter_id": "503679",
+                    "type": "0",
+                    "price": "0",
+                    "size": "2680798",
+                    "pass_time": "1466061607",
+                    "release_time": "0",
+                    "zip_high_webp": "1380018",
+                    "is_new": 1
+                },
+                {
+                    "name": "05话",
+                    "image_total": "12",
+                    "chapter_id": "506012",
+                    "type": "0",
+                    "price": "0",
+                    "size": "0",
+                    "pass_time": "1466664248",
+                    "release_time": "0",
+                    "zip_high_webp": "596908",
+                    "is_new": 1
+                }
+            ],
+            "otherWorks": []
+        }
+    }
+}

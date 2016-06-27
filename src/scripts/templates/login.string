@@ -1,0 +1,21 @@
+<div class="login">
+  <i class="yo-ico" action-type = "goto.my">&#xe623;</i>
+  <img src="/youyaoqi/images/bg_login_top.jpg"/>
+  <form>
+    <div class="content">
+      <input type="text"  placeholder="请输入有妖气账号" autofocus="autofocus"></input>
+      <input type="password"  placeholder="请输入密码"/>
+      <input type="button" class="logbtn" value="登录"/>
+      <p>
+        <span action-type = "goto.reg"><a>手机号快速注册</a></span>
+        <span><b>忘记密码</b></span>
+      </p>
+      <div class="otherlog">
+        <img src="/youyaoqi/images/icon_login_weixin.png"/>
+        <img src="/youyaoqi/images/icon_login_qq.png"/>
+        <img src="/youyaoqi/images/icon_login_sina.png"/>
+        <img src="/youyaoqi/images/icon_login_sd.png"/>
+      </div>
+    </div>
+  </form>
+</div>

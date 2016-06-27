@@ -1,0 +1,54 @@
+
+.bookshelf-home {
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  overflow: hidden;
+  nav {
+    height: .45rem;
+    background: #fff;
+    ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li {
+        @include flex(1);
+        text-align: center;
+        line-height: .45rem;
+        color:#9a9a9a;
+        @include border(0 0 1px 0, #d9d9d9);
+        &.active {
+          border-bottom: .02rem solid #212121;
+          color: #222;
+        }
+      }
+    }
+  }
+  #bookshelf-hot-swiper {
+    @include flex(1);
+    width: 100%;
+    .swiper-wrapper{
+      .swiper-slide{
+        position: relative;;
+        background: #fff;
+        .nolog{
+          position: absolute;
+
+          top:50%;
+          width: 100%;
+           margin: 0 auto;
+
+           text-align: center;
+          .nothing{
+            margin-top: -10%;
+            width: 1.5rem;
+          }
+          p{
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

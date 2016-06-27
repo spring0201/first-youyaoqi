@@ -1,0 +1,55 @@
+<div class="my">
+  <div class="nologtop">
+    <div class="zhezhao">
+      <div class="header" action-type="goto.login">
+         <img src="/youyaoqi/images/user_default_header.png"/>
+      </div>
+      <div class="pleaselog">
+        <h5>点击登录</h5>
+        <p>登陆后可以使用书架功能喔</p>
+      </div>
+      <i class="yo-ico">&#xe687;</i>
+    </div>
+  </div>
+  <div class="content">
+    <ul class="threeul">
+      <li>
+        <img src="/youyaoqi/images/user_list_account_infomation.png"/>
+        <b>消费记录</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/user_list_recharge.png"/>
+        <b>充值</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/user_list_subscribe.png"/>
+        <b>我的订阅</b>
+      </li>
+    </ul>
+    <ul class="threeul">
+      <li>
+        <img src="/youyaoqi/images/user_list_feedback.png"/>
+        <b>问题反馈</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/user_list_author.png"/>
+        <b>成为作者</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/user_list_sign.png"/>
+        <b>签到</b>
+      </li>
+    </ul>
+    <ul class="last">
+      <li>
+        <img src="/youyaoqi/images/user_list_about_us.png"/>
+        <b>关于我们</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/user_list_last.png"/>
+      </li>
+
+    </ul>
+  </div>
+
+</div>

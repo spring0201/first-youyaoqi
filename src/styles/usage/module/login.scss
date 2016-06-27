@@ -1,0 +1,77 @@
+.login{
+  width: 100%;
+  height: 100%;
+  >i{
+    position: fixed;
+    left:.1rem;
+    top:.1rem;
+    color: #fff;
+  }
+  >img{
+      width: 100%;
+  }
+  background: #fff;
+  .content{
+      width: 100%;
+      height: 2.58rem;
+      background:-webkit-gradient(linear, 0 0, 0 100%, from(#fefbdc), to(#fff));
+      text-align: center;
+      input{
+        width: 80%;
+        height: .35rem;
+        line-height: .35rem;
+        font-size: .12rem;
+        border-radius: .1rem;
+        border: 0;
+        margin-top:.15rem;
+        @include box-sizing(border-box);
+        background: #fff;
+
+        &:first-of-type{
+          padding-left: .35rem;
+          background-image: url(/youyaoqi/images/icon_account.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: .05rem center;
+        }
+        &:nth-child(2){
+          padding-left: .35rem;
+          background-image: url(/youyaoqi/images/icon_password.png);
+          background-position: .05rem center;
+          background-size:contain;
+          background-repeat: no-repeat;
+        }
+        &:last-of-type{
+          background: #8ddf4d;
+          margin: .15rem 0;
+          font-size: .16rem;
+          color: #fff;
+        }
+      }
+      p{
+        width: 100%;
+        @include flexbox();
+        span{
+          @include flex(1);
+          a{
+            text-align: left;
+            color:#83de4b;
+            @include border(0 0 1px 0,#83de4b,solid);
+          }
+          b{
+            text-align: right;
+            font-weight: 100;
+            color: #8bbaf0;
+          }
+      }
+    }
+    .otherlog{
+      img{
+        width: .44rem;
+        margin: .2rem .1rem;
+      }
+
+
+    }
+  }
+}

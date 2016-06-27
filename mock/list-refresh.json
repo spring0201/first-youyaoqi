@@ -1,0 +1,24 @@
+{
+
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc":"/youyaoqi/images/img/img_01.jpg",
+      "title":"refresh战神之极1"
+    },
+    {
+      "imgsrc":"/youyaoqi/images/img/img_02.jpg",
+      "title":"refresh战神之极2"
+    },
+    {
+      "imgsrc":"/youyaoqi/images/img/img_01.jpg",
+      "title":"refresh战神之极3"
+    },
+    {
+      "imgsrc":"/youyaoqi/images/img/img_02.jpg",
+      "title":"refresh战神之极4"
+    }
+  ]
+}

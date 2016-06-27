@@ -1,0 +1,30 @@
+<div class="m-index">
+  <div class="l-container">
+
+  </div>
+  <footer>
+    <ul>
+      <li action-type="switch.tabs" data-tag="recommend">
+        <div></div>
+        <b>推荐</b>
+      </li>
+      <li class="active" action-type="switch.tabs" data-tag="home">
+        <div></div>
+        <b>精品</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="bookshelf">
+        <div></div>
+        <b>书架</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="game">
+        <div></div>
+        <b>游戏</b>
+      </li>
+      <li action-type="switch.tabs" data-tag="my">
+        <div></div>
+        <b>我的</b>
+      </li>
+    </ul>
+
+  </footer>
+</div>

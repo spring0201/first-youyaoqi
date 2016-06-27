@@ -1,0 +1,130 @@
+
+.ranking{
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  overflow: hidden;
+  header{
+    height: .45rem;
+    background: #fff;
+    ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li {
+        @include flex(1);
+        text-align: center;
+        line-height: .45rem;
+        @include border(0 0 1px 0, #d9d9d9);
+        &:nth-child(1){
+          text-align: left;
+          @include box-sizing(border-box);
+          padding-left: .1rem;
+        }
+      }
+    }
+
+  }
+  nav {
+    height: .45rem;
+    width: 100%;
+    background: #fff;
+    ul {
+      width: 424px;
+      height: 100%;
+      @include flexbox();
+      @include border(0 0 1px 0, #d9d9d9);
+      li {
+        width:35px;
+        margin: 0 9px;
+        @include flex(1);
+        line-height: .45rem;
+        color:#9a9a9a;
+        text-align: center;
+        &.active {
+          border-bottom: .02rem solid #87da56;
+          color: #87da56;
+        }
+      }
+    }
+  }
+  #ranking-swiper {
+    @include flex(1);
+    width: 100%;
+    .mouthTicket{
+      height: 100%;
+      overflow: hidden;
+      ul{
+        background: #fff;
+        .head {
+            text-align: center;
+            height: .3rem;
+            line-height: .3rem;
+        }
+        .head img {
+            display: inline-block;
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+            height: .15rem;
+            width: .15rem;
+        }
+        .up {
+            transform: rotate(360deg) !important;
+            -webkit-transform: rotate(360deg) !important;
+        }
+        .foot {
+            text-align: center;
+            height: .3rem;
+            line-height: .3rem;
+        }
+        .foot img {
+            display: inline-block;
+            /*transform: rotate(0deg);*/
+            /*-webkit-transform: rotate(0deg);*/
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+            height: .15rem;
+            width: .15rem;
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
+        li{
+            @include border( 0 0 1px 0, #d9d9d9);
+          .desc{
+            @include flexbox();
+            padding: 10px 0;
+            img{
+
+              margin:0 10px;
+              width:100px;
+              height: 130px;
+            }
+            .wenzi{
+              @include flex(1);
+              color: #828282;
+              font-size: 10px;
+              h4{
+                height:40px;
+                line-height: 40px;
+                font-size: 12px;
+
+              }
+              i{
+                line-height:25px;
+              }
+              b{
+                font-weight: 100;
+                line-height: 40px;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

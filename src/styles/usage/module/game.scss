@@ -1,0 +1,22 @@
+.game{
+
+  header {
+    width: 100%;
+    .banner{
+      width: 100%;
+      .swiper-container{
+        .banner {
+          .swiper-pagination-bullets{
+            border: 1px;
+          }
+          .swiper-pagination-bullets-active{
+            background: #fff;
+          }
+        }
+      }
+      img{
+        width: 100%
+      }
+    }
+  }
+}

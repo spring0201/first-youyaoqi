@@ -1,0 +1,10 @@
+<div class="banner">
+<div class="swiper-container guide">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/img/img_first1.jpg"/> </div>
+    <div class="swiper-slide"><img src="images/img/img_first2.jpg"/> </div>
+    <div class="swiper-slide"><img src="images/img/img_first3.jpg"/> </div>
+    <div class="swiper-slide" action-type="goto.index"><img src="images/img/img_first4.jpg"/></div>
+  </div>
+  </div>
+</div>

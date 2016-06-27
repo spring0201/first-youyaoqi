@@ -1,0 +1,74 @@
+<div class="ranking">
+  <header>
+    <ul>
+        <li action-type = "back"><i class="yo-ico">&#xe636;</i></li>
+        <li><h3>排行榜</h3></li>
+        <li></li>
+    </ul>
+  </header>
+  <nav spa-widget="scroll"  data-scroll-id="rankScroll">
+    <ul>
+      <li class="active" action-type="tap.rankingSwiper.slide" >月票</li>
+      <li  action-type="tap.rankingSwiper.slide">点击</li>
+      <li action-type="tap.rankingSwiper.slide">吐槽</li>
+      <li action-type="tap.rankingSwiper.slide">另类</li>
+      <li action-type="tap.rankingSwiper.slide">恐怖</li>
+      <li action-type="tap.rankingSwiper.slide">爆笑</li>
+      <li action-type="tap.rankingSwiper.slide">新作</li>
+      <li action-type="tap.rankingSwiper.slide">感动</li>
+    </ul>
+  </nav>
+  <div class="swiper-container" id="ranking-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="mouthTicket" spa-widget="scroll" data-scroll-id="rankingScroll">
+          <ul>
+            <div class="head">
+                <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+                <span>下拉刷新...</span>
+            </div>
+            <li ms-repeat-value="list">
+                <div class="desc">
+                  <img ms-src="value.imgsrc"/>
+                  <div class="wenzi">
+                    <h4 ms-text="value.title"></h4>
+                    <i ms-text="value.tag"></i><i ms-text="value.author"></i>
+                    <p  ms-text="value.describe"></p>
+                    <b> 浏览量：<em ms-text="value.click"></em></b>
+                  </div>
+              </div>
+            </li>
+            <div class="foot">
+                <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+                <span>上拉加载更多...</span>
+            </div>
+          </ul>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="shits">
+        点击
+        </div>
+      </div>
+      <div class="swiper-slide">
+        吐槽
+      </div>
+      <div class="swiper-slide">
+        另类
+      </div>
+      <div class="swiper-slide">
+        恐怖
+      </div>
+      <div class="swiper-slide">
+        爆笑
+      </div>
+      <div class="swiper-slide">
+        新作
+      </div>
+      <div class="swiper-slide">
+        感动
+      </div>
+    </div>
+  </div>
+</div>

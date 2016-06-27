@@ -1,0 +1,110 @@
+
+.m-index {
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    footer {
+      height: .47rem;
+      background-color: #fff;
+      ul {
+        @include flexbox();
+        @include box-sizing(border-box);
+        @include border(1px 0 0 0, #bbcdcd);
+        width: 100%;
+        height: 100%;
+        li {
+          @include flex(1);
+          @include flexbox();
+          @include flex-direction(column);
+          @include align-items(center);
+          @include justify-content(center);
+          @include box-sizing(border-box);
+          padding-top: .03rem;
+
+          &:nth-child(1){
+              div{
+                background:url(/youyaoqi/images/main_radiobutton_recommend_normal.png);
+                background-size: cover;
+              }
+          }
+          &:nth-child(2){
+              div{
+                background:url(/youyaoqi/images/main_radiobutton_boutique_normal.png);
+                background-size: cover;
+              }
+          }
+          &:nth-child(3){
+              div{
+                background:url(/youyaoqi/images/main_radiobutton_bookshelf_normal.png);
+                background-size: cover;
+              }
+          }
+          &:nth-child(4){
+              div{
+                background:url(/youyaoqi/images/main_radiobutton_game_normal.png);
+                background-size: cover;
+              }
+          }
+          &:nth-child(5){
+              div{
+                background:url(/youyaoqi/images/main_radiobutton_mine_normal.png);
+                background-size: cover;
+              }
+          }
+
+          //高亮部分
+          &.active{
+            &:nth-child(1){
+                div{
+                  background:url(/youyaoqi/images/main_radiobutton_recommend_light.png);
+                  background-size: cover;
+                }
+            }
+            &:nth-child(2){
+                div{
+                  background:url(/youyaoqi/images/main_radiobutton_boutique_light.png);
+                  background-size: cover;
+                }
+            }
+            &:nth-child(3){
+                div{
+                  background:url(/youyaoqi/images/main_radiobutton_bookshelf_light.png);
+                  background-size: cover;
+                }
+            }
+            &:nth-child(4){
+                div{
+                  background:url(/youyaoqi/images/main_radiobutton_game_light.png);
+                  background-size: cover;
+                }
+            }
+            &:nth-child(5){
+                div{
+                  background:url(/youyaoqi/images/main_radiobutton_mine_light.png);
+                  background-size: cover;
+                }
+            }
+          }
+
+          div{
+            width: .21rem;
+            height: .21rem;
+
+          }
+
+          &.active b {
+            color: #84e04d;
+          }
+          img, b {
+            display: block;
+            color: #d6d6d6;
+          }
+
+          b {
+            font-weight: normal;
+            font-size: .12rem;
+          }
+        }
+      }
+   }
+}

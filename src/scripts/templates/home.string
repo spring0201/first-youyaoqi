@@ -1,0 +1,215 @@
+<div class="m-home" spa-widget="scroll" data-scroll-id="homeScroll">
+ <div>
+   <div class="head">
+       <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+       <span>下拉刷新...</span>
+   </div>
+  <header>
+    <div class="banner">
+      <div class="swiper-container" id="banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img01.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img02.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img03.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img04.jpg"/></a></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li  action-type = "goto.ranking">
+        <img  src="/youyaoqi/images/main_boutique_head_point_ranking.png"   />
+        <b >排行</b>
+      </li>
+      <li class="active">
+        <img src="/youyaoqi/images/main_boutique_head_point_special.png"  />
+        <b>专题</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/main_boutique_head_point_classify.png"/>
+        <b>分类</b>
+      </li>
+      <li>
+        <img src="/youyaoqi/images/main_boutique_head_point_animation.png"   />
+        <b>动画</b>
+      </li>
+    </ul>
+  </nav>
+  <section>
+    <!-- <div class="tuijian">
+        <h2>
+          <a href="#">强力推荐作品</a>
+          <a href="#">原S级作品推荐</a>
+        </h2>
+        <div class="hengIscroll" >
+          <div class="swiper-container main-slide" >
+            <div class="swiper-wrapper" >
+              <div class="swiper-slide"  ms-repeat-value="list">
+                <div>
+                  <img ms-src="value.imgsrc"/>
+                  <p ms-text="value.title"></p>
+                  <b>武道之极</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class = "tuijian" >
+          <h2>
+            <a><img  src="/youyaoqi/images/img/smlogo1.png"/>强力推荐作品</a>
+            <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+          </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll0">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+
+      <div class = "tuijian" >
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo2.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll1">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo3.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll2">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo4.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll3">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo5.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll4">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo6.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll5">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo7.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll6">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo8.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll7">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo9.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll8">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+      <div class = "tuijian">
+        <h2>
+          <a><img  src="/youyaoqi/images/img/smlogo10.png"/>强力推荐作品</a>
+          <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
+        </h2>
+          <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll9">
+              <ul>
+                <li  ms-repeat-value="list">
+                      <img ms-src="value.imgsrc"/>
+                      <p ms-text="value.title"></p>
+                      <b>武道之极</b>
+                </li>
+              </ul>
+          </div>
+      </div>
+  </section>
+
+</div>
+</div>
