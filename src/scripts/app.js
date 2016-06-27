@@ -22,5 +22,5 @@ require('./views/reg.js');
 
 // SPA设置
 SPA.config({
-  indexView: 'guide'
+  indexView: 'my'
 });
