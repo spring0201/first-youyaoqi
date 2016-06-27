@@ -35,7 +35,7 @@ SPA.defineView('home', {
 
         $.ajax({
           // url:'/api/getlist.php',
-          url:'/youyaoqi/mock/list.json',
+          url:'/first-youyaoqi/mock/list.json',
 
           type: 'get',
           data:{
@@ -99,11 +99,11 @@ SPA.defineView('home', {
                    myScroll.scrollTo(0, -scrollSize);
                    head.removeClass('up');
                } else if (this.y >= 0) {
-                   head.attr('src', '/youyaoqi/images/ajax-loader.gif');
+                   head.attr('src', '/first-youyaoqi/images/ajax-loader.gif');
                    // ajax下拉刷新数据
 
                    $.ajax({
-                     url: '/youyaoqi/mock/ranking-refresh.json',
+                     url: '/first-youyaoqi/mock/ranking-refresh.json',
                      data: {
                        rtype: 'rankingRefresh'
                      },
@@ -111,7 +111,7 @@ SPA.defineView('home', {
                        that.vm.list = rs.data;
                        myScroll.scrollTo(0, -scrollSize);
                        head.removeClass('up');
-                       head.attr('src', '/youyaoqi/images/arrow.png');
+                       head.attr('src', '/first-youyaoqi/images/arrow.png');
                      }
                    });
                }

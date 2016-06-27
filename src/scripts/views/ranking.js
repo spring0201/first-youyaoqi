@@ -31,7 +31,7 @@ SPA.defineView('ranking', {
 
          $.ajax({
            // url:'/api/getlist.php',
-           url:'/youyaoqi/mock/ranking.json',
+           url:'/first-youyaoqi/mock/ranking.json',
 
            type: 'get',
            data:{
@@ -86,11 +86,11 @@ SPA.defineView('ranking', {
                   myScroll.scrollTo(0, -scrollSize);
                   head.removeClass('up');
               } else if (this.y >= 0) {
-                  head.attr('src', '/youyaoqi/images/ajax-loader.gif');
+                  head.attr('src', '/first-youyaoqi/images/ajax-loader.gif');
                   // ajax下拉刷新数据
 
                   $.ajax({
-                    url: '/youyaoqi/mock/ranking-refresh.json',
+                    url: '/first-youyaoqi/mock/ranking-refresh.json',
                     data: {
                       rtype: 'rankingRefresh'
                     },
@@ -98,7 +98,7 @@ SPA.defineView('ranking', {
                       vm.list =rs.data.concat(vm.list);
                       myScroll.scrollTo(0, -scrollSize);
                       head.removeClass('up');
-                      head.attr('src', '/youyaoqi/images/arrow.png');
+                      head.attr('src', '/first-youyaoqi/images/arrow.png');
                     }
                   })
 
@@ -112,10 +112,10 @@ SPA.defineView('ranking', {
                   myScroll.scrollTo(0, self.maxScrollY + scrollSize);
                   foot.removeClass('down')
               } else if (maxY >= 0) {
-                  foot.attr('src', '/youyaoqi/images/ajax-loader.gif');
+                  foot.attr('src', '/first-youyaoqi/images/ajax-loader.gif');
                   // ajax上拉加载数据
                   $.ajax({
-                    url: '/youyaoqi/mock/ranking-more.json',
+                    url: '/first-youyaoqi/mock/ranking-more.json',
                     data: {
                       rtype: 'rankingMore'
                     },
@@ -123,11 +123,11 @@ SPA.defineView('ranking', {
                       vm.list = vm.list.concat(rs.data);
                       myScroll.scrollTo(0, -scrollSize);
                       head.removeClass('up');
-                      head.attr('src', '/youyaoqi/images/arrow.png');
+                      head.attr('src', '/first-youyaoqi/images/arrow.png');
                     }
                   })
                   // $.ajax({
-                  //   url: '/youyaoqi/mock/list-more.json',
+                  //   url: '/first-youyaoqi/mock/list-more.json',
                   //   data: {
                   //     rtype: 'more'
                   //   },
@@ -139,7 +139,7 @@ SPA.defineView('ranking', {
                   //
                   //     myScroll.scrollTo(0, self.y + scrollSize);
                   //     foot.removeClass('down');
-                  //     foot.attr('src', '/youyaoqi/images/arrow.png');
+                  //     foot.attr('src', '/first-youyaoqi/images/arrow.png');
                   //   }
                   // });
               }

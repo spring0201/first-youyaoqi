@@ -1,17 +1,17 @@
 <div class="m-home" spa-widget="scroll" data-scroll-id="homeScroll">
  <div>
    <div class="head">
-       <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+       <img src="/first-first-first-youyaoqi/images/arrow.png" width="40" height="40"/>
        <span>下拉刷新...</span>
    </div>
   <header>
     <div class="banner">
       <div class="swiper-container" id="banner">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img01.jpg"/></a></div>
-          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img02.jpg"/></a></div>
-          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img03.jpg"/></a></div>
-          <div class="swiper-slide"><a href="#"><img src="/youyaoqi/images/img/img04.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/first-first-first-youyaoqi/images/img/img01.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/first-first-first-youyaoqi/images/img/img02.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/first-first-first-youyaoqi/images/img/img03.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="/first-first-first-youyaoqi/images/img/img04.jpg"/></a></div>
         </div>
 
         <div class="swiper-pagination"></div>
@@ -21,19 +21,19 @@
   <nav>
     <ul>
       <li  action-type = "goto.ranking">
-        <img  src="/youyaoqi/images/main_boutique_head_point_ranking.png"   />
+        <img  src="/first-first-first-youyaoqi/images/main_boutique_head_point_ranking.png"   />
         <b >排行</b>
       </li>
       <li class="active">
-        <img src="/youyaoqi/images/main_boutique_head_point_special.png"  />
+        <img src="/first-first-first-youyaoqi/images/main_boutique_head_point_special.png"  />
         <b>专题</b>
       </li>
       <li>
-        <img src="/youyaoqi/images/main_boutique_head_point_classify.png"/>
+        <img src="/first-first-first-youyaoqi/images/main_boutique_head_point_classify.png"/>
         <b>分类</b>
       </li>
       <li>
-        <img src="/youyaoqi/images/main_boutique_head_point_animation.png"   />
+        <img src="/first-first-first-youyaoqi/images/main_boutique_head_point_animation.png"   />
         <b>动画</b>
       </li>
     </ul>
@@ -60,7 +60,7 @@
       </div> -->
       <div class = "tuijian" >
           <h2>
-            <a><img  src="/youyaoqi/images/img/smlogo1.png"/>强力推荐作品</a>
+            <a><img  src="/first-first-first-youyaoqi/images/img/smlogo1.png"/>强力推荐作品</a>
             <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
           </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll0">
@@ -76,7 +76,7 @@
 
       <div class = "tuijian" >
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo2.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-first-youyaoqi/images/img/smlogo2.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll1">
@@ -91,7 +91,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo3.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-first-youyaoqi/images/img/smlogo3.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll2">
@@ -106,7 +106,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo4.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo4.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll3">
@@ -121,7 +121,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo5.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo5.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll4">
@@ -136,7 +136,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo6.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo6.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll5">
@@ -151,7 +151,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo7.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo7.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll6">
@@ -166,7 +166,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo8.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo8.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll7">
@@ -181,7 +181,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo9.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo9.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll8">
@@ -196,7 +196,7 @@
       </div>
       <div class = "tuijian">
         <h2>
-          <a><img  src="/youyaoqi/images/img/smlogo10.png"/>强力推荐作品</a>
+          <a><img  src="/first-first-youyaoqi/images/img/smlogo10.png"/>强力推荐作品</a>
           <a>原S级作品推荐<i class="yo-ico">&#xe61a;</a>
         </h2>
           <div class = "hengIscroll" spa-widget="scroll" data-scroll-id="remmScroll9">

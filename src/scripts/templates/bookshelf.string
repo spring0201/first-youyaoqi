@@ -11,19 +11,19 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="nolog">
-            <img  src="/youyaoqi/images/icon_loading_logout.png"/>
+            <img  src="/first-first-youyaoqi/images/icon_loading_logout.png"/>
             <p><i href="">请登陆后</i>,查看你的私密信息</p>
         </div>
       </div>
       <div class="swiper-slide">
         <div class="nolog">
-            <img class="nothing" src="/youyaoqi/images/u17_layout_show_error_empty.png"/>
+            <img class="nothing" src="/first-youyaoqi/images/u17_layout_show_error_empty.png"/>
             <p>什么也没有啊，哭晕在厕所</p>
         </div>
       </div>
       <div class="swiper-slide">
         <div class="nolog">
-            <img  class="nothing" src="/youyaoqi/images/u17_layout_show_error_empty.png"/>
+            <img  class="nothing" src="/first-youyaoqi/images/u17_layout_show_error_empty.png"/>
             <p>什么也没有啊，哭晕在厕所</p>
         </div>
       </div>

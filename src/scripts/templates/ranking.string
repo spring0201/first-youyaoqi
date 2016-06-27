@@ -24,7 +24,7 @@
         <div class="mouthTicket" spa-widget="scroll" data-scroll-id="rankingScroll">
           <ul>
             <div class="head">
-                <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+                <img src="/first-youyaoqi/images/arrow.png" width="40" height="40"/>
                 <span>下拉刷新...</span>
             </div>
             <li ms-repeat-value="list">
@@ -39,7 +39,7 @@
               </div>
             </li>
             <div class="foot">
-                <img src="/youyaoqi/images/arrow.png" width="40" height="40"/>
+                <img src="/first-youyaoqi/images/arrow.png" width="40" height="40"/>
                 <span>上拉加载更多...</span>
             </div>
           </ul>
